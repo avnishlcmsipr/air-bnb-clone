@@ -1,0 +1,8 @@
+.footer {
+    text-align: center;
+    padding: 20px;
+}
+
+.footer > hr {
+    margin: 10px 90px;
+}

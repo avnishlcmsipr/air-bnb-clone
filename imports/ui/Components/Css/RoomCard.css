@@ -1,0 +1,52 @@
+.room_card >img {
+    min-height: 200px;
+    min-width: 480px;
+    max-height: 230px;
+    max-width: 750;
+    object-fit:cover;
+    transition: transform 0.1s ease-in;
+}
+.room_card > img:hover {
+    transform: scale(1.07);
+}
+.room_card {
+    margin: 20px 50px;
+    border: 1px solid gray;
+    width: 450px;
+    border-radius: 20px;
+    overflow: hidden;
+    /* padding: 10px; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.room_card_info {
+    margin: 15px 20px;
+}
+
+.title_and_city {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.room_card_desc {
+    color: gray;
+    margin-top: 15px;
+}
+
+
+.price_and_rating {
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+
+button {
+    margin-top: 15px;
+    background-color:blue;
+    height: 35px;
+    width: 110px;
+    border-radius: 8px;
+    color: white;
+}

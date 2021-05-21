@@ -1,0 +1,49 @@
+.banner_head {
+    display: flex;
+    background-color: white;
+    max-width: fit-content;
+    border-radius: 90px;
+    padding: 15px;
+    margin-top: 100px;
+    margin-left: 620px;
+    height: 50px;
+    justify-content: space-between;
+}
+
+.location {
+    padding: 5px 20px;
+}
+.location > input {
+    border: none;
+    outline: none;
+    width: 80px;
+}
+
+.check_in {
+    padding: 5px 20px;
+}
+
+.check_out {
+    padding: 5px 20px;
+}
+
+.guests {
+    padding: 5px 20px;
+}
+
+.location:hover {
+    background-color: lightgray;
+    cursor: pointer;
+} 
+.check_in:hover {
+    background-color: lightgray;
+    cursor: pointer;
+} 
+.check_out:hover {
+    background-color: lightgray;
+    cursor: pointer;
+} 
+.guests:hover {
+    background-color: lightgray;
+    cursor: pointer;
+} 

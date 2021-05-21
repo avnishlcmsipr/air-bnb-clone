@@ -1,0 +1,18 @@
+.rooms {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 40px;
+}
+
+.filters {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.filter_button {
+    height: 50px;
+    width: 150px;
+    font-size: 30px;
+    margin: 20px;
+    cursor: pointer;
+}

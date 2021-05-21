@@ -1,0 +1,18 @@
+.small_card {
+    display: flex;
+    cursor: pointer;
+}
+
+.small_data {
+    margin: 10px 15px;
+}
+
+.small_data > p {
+    margin-top: 5px;
+}
+
+.small_card > img {
+    height: 70px;
+    width: 70px;
+    border-radius: 12px;
+}
